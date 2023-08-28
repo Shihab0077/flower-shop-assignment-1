@@ -200,6 +200,41 @@ border-radius: 8px;
 background: #FFF;
 
 }
+/* meaningful section */
+.learn-div{
+  display: flex;
+  margin: 50px 130px 100px 150px;
+  
+}
+.learn-column-1{
+  display: flex;
+  gap: 20px;
+  background-color: #f09558e0;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-right: 10px;
+  
+}
+.learn-column-2{
+  display: flex;
+  gap: 20px;
+  background-color: #794b2ce0;
+  border-radius: 8px;
+  padding-top: 50px;
+  padding-left: 10px;
+}
+.learn-title{
+  color: #272727;
+ padding-top: 30px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.learn-subtitle{
+  color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+
+font-weight: 400;
+}
 /* footer-style */
 .footer{
   background-color: #111010;
