@@ -5,6 +5,7 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+/* header-style */
 .header-container {
   display: flex;
   background: rgba(229, 84, 115, 0.1);
@@ -43,4 +44,66 @@
     padding-left: 150px;
     margin-bottom: -5px;
   
+}
+/* featured flower style */
+.featured-div{
+    text-align: center;
+    margin-top: 100px;
+}
+.featured-title{
+    color: #272727;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 20px;
+}
+.featured-subtitle{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+max-width: 500px;
+margin: auto;
+}
+.flower-container{
+    max-width: 1140px;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.flower-image-1{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    padding: 70px 30px 0 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    
+}
+.flower-image-2{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    padding: 70px 30px 30px 30px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+    
+}
+.flower-image-3{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    padding: 70px 30px 0 30px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+    
+}
+.image-title{
+    color: #272727;
+text-align: center;
+font-size: 18px;
+margin-top: 10px;
+text-decoration: underline;
 }
