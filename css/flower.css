@@ -5,6 +5,32 @@
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+.btn-primary{
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-style: none;
+    border-radius: 8px;
+    background: #e55473;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
+  .section-subtitle{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 500px;
+    margin: auto;
+  }
 /* header-style */
 .header-container {
   display: flex;
@@ -13,7 +39,6 @@
   gap: 50px;
 }
 .header-div {
-
   width: 100%;
 }
 .header-title {
@@ -28,82 +53,126 @@
   font-weight: 400;
   margin-top: 20px;
 }
-.header-btn {
-    margin-top: 20px;
-    padding: 15px 25px;
-    border-style: none;
-  border-radius: 8px;
-  background: #e55473;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-}
-.header-image{
-    width: auto;
-    height: 450px;
-    padding-left: 150px;
-    margin-bottom: -5px;
-  
+
+.header-image {
+  width: auto;
+  height: 450px;
+  padding-left: 150px;
+  margin-bottom: -5px;
 }
 /* featured flower style */
-.featured-div{
-    text-align: center;
-    margin-top: 100px;
+.featured-div {
+  text-align: center;
+  margin-top: 100px;
 }
-.featured-title{
+
+.flower-container {
+  max-width: 1140px;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.flower-image-1 {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  padding: 70px 30px 0 30px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.flower-image-2 {
+  position: relative;
+  width: 250px;
+  height: 320px;
+  padding: 70px 30px 30px 30px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.flower-image-3 {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  padding: 70px 30px 0 30px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.image-title {
+  color: #272727;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+/* delivery style */
+.delivery-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 50px;
+  margin: 100px 150px 0 150px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  
+}
+.delivery-title {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 16px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+}
+/* hot deal style */
+.hot-deal-container{
+    display: flex;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 100px;
+  padding: 50px 150px;
+  gap: 50px;
+}
+.hot-div{
+    width: 100%;
+    text-align: center;
+    
+}
+.hot-title{
     color: #272727;
-text-align: center;
+    padding-top: 50px;
+    padding-left: 50px;
 font-size: 30px;
 font-weight: 700;
-padding-bottom: 20px;
 }
-.featured-subtitle{
+.off-color{
+    color: #e55473;
+}
+.hot-subtitle{
     color: rgba(39, 39, 39, 0.60);
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-max-width: 500px;
-margin: auto;
-}
-.flower-container{
-    max-width: 1140px;
-    display: flex;
-    gap: 50px;
-    margin-top: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
-}
-.flower-image-1{
-    position: relative;
-    width: 250px;
-    height: 350px;
-    padding: 70px 30px 0 30px;
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    
-}
-.flower-image-2{
-    position: relative;
-    width: 250px;
-    height: 320px;
-    padding: 70px 30px 30px 30px;
-    border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-    
-}
-.flower-image-3{
-    position: relative;
-    width: 250px;
-    height: 350px;
-    padding: 70px 30px 0 30px;
-    border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-    
-}
-.image-title{
-    color: #272727;
-text-align: center;
-font-size: 18px;
 margin-top: 10px;
-text-decoration: underline;
+}
+.hot-image{
+    width: auto;
+    height: 250px;
+    
+}
+/* instagram section */
+.instagram-div{
+  margin-top: 100px;
+}
+.insta-image-div{
+  display: flex;
+  gap: 20px;
+  padding: 50px 150px;
+  
+}
+/* latest section */
+.latest-section{
+  margin: 50px 130px 50px 150px;
+  background-image: url("../flower-img/cover1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
